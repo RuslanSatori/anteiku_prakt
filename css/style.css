@@ -1,0 +1,374 @@
+body {
+  background-image: url("антейку.jpg");
+  color: white;
+  font-family: cursive;
+  margin: 0;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+
+.top-menu {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-menu a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.image-row img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.menu-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.menu-section figure img {
+  height: 250px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 0;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.quote {
+  font-size: 22px;
+  text-align: center;
+  margin: 30px auto;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-left: 5px solid #ccc;
+  max-width: 700px;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ddd;
+}
+
+.center-btn {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-btn {
+  background-color: #c95f5f;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #a04444;
+}
+
+.daily-tip {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffd;
+  padding: 15px;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  border-left: 4px solid #c95f5f;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.features {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.blog-posts {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-left: 5px solid #c95f5f;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.post h2 {
+  margin-top: 0;
+  color: #ffc;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.history-philosophy {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.history, .philosophy {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.history h2, .philosophy h2 {
+  color: #ffd;
+  margin-bottom: 10px;
+}
+
+.history p, .philosophy p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #eee;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #ffd;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-map img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+}
+
+.social-icons img {
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.coffee-menu {
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coffee-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.coffee-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.coffee-card:hover {
+  transform: scale(1.03);
+}
+
+.coffee-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.coffee-card h2 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+}
+
+.coffee-card p {
+  font-size: 16px;
+  margin: 0 15px 10px;
+}
+
+.coffee-card .price {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.menu-main {
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.menu-card h2 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+  color: #ffd700;
+}
+
+.menu-card p {
+  font-size: 16px;
+  margin: 0 15px 10px;
+}
